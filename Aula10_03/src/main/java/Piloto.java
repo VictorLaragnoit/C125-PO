@@ -5,7 +5,7 @@ public class Piloto {
     boolean vilao;
 
     void soltaSuperPoder(){
-        System.out.println("Piloto " + nome + "soltando super poder")
+        System.out.println("Piloto " + nome + "soltando super poder");
 
     }
     
