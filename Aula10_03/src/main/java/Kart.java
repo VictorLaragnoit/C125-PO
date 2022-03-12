@@ -2,6 +2,12 @@ public class Kart {
 
     String nome;
 
+    Motor motor;
+
+    public Kart(){
+        motor = new Motor();
+    }
+
     void pular(){
         System.out.println("Carro " + nome + "esta pulando!")
 
