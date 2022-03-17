@@ -1,8 +1,37 @@
 public class Conta {
     
-    private int saldo = 20000;
-    private int limite = 50000;
+    private int saldo = 90;
+    private int limite = 100;
     private String nome;
+
+
+    
+
+    public int getSaldo() {
+        return saldo;
+    }
+
+
+
+
+    public int getLimite() {
+        return limite;
+    }
+
+
+    public void setLimite(int limite) {
+        this.limite = limite;
+    }
+
+
+    public String getNome() {
+        return nome;
+    }
+
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
 
     private boolean verificaSerasa(int quantidade){
